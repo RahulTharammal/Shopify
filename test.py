@@ -64,7 +64,7 @@ def update_google_sheet():
     sheet = client.open_by_key(GOOGLE_SHEETS_SPREADSHEET_ID).sheet1
 
     # Append headings to the Google Sheet
-    headings = ['Date', 'Sessions', 'Sessions Difference %', 'Revenue', 'Revenue Difference %', 'Orders', 'Orders Difference %', 'Conversion Rate', 'Conversion Rate Difference %', 'AOV', 'AOV Difference %']
+    headings = ['Date', 'Sessions', 'Difference %', 'Revenue', 'Difference %', 'Orders', 'Difference %', 'Conversion Rate', 'Difference %', 'AOV', 'Difference %']
     sheet.append_row(headings)
 
     # Enter data and difference percentages for May 6, 2024
