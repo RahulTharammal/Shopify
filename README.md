@@ -68,7 +68,7 @@ Update the following constants in the script (`update_google_sheet.py`):
 1. Run the script using Python:
 
 ```bash
-python update_google_sheet.py
+python test.py
 ```
 
 2. The script will update the Google Sheets spreadsheet with data for specified dates, calculate difference percentages, and send notification messages to the specified Slack channel.
@@ -78,10 +78,10 @@ python update_google_sheet.py
 To schedule the script to run automatically at specific intervals, use crontab. For example, to run the script daily at 2:00 AM:
 
 ```
-0 2 * * * /usr/bin/python3 /path/to/update_google_sheet.py
+0 2 * * * /usr/bin/python3 /path/to/test.py
 ```
 
-Replace `/usr/bin/python3` with the path to your Python interpreter if it's different, and replace `/path/to/update_google_sheet.py` with the full path to your Python script.
+Replace `/usr/bin/python3` with the path to your Python interpreter if it's different, and replace `/path/to/test.py` with the full path to your Python script.
 
 ## Contributing
 
