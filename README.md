@@ -16,6 +16,7 @@ Automate the process of updating your Google Sheets spreadsheet with Shopify dat
 - [Scheduling with crontab](#scheduling-with-crontab)
 - [Contributing](#contributing)
 - [License](#license)
+- [Additional Note](#additional-note)
 
 ## Features
 
@@ -90,9 +91,9 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
 
-## Additional Note -
+
+## Additional Note
 
 1. **Data Availability on Shopify**: When attempting to fetch data from Shopify for a specific date, it was found that data was not available because the store's data was last updated up to February 2024.
 
@@ -105,4 +106,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 5. **Code Repository and Collaboration**: All the relevant code has been shared on GitHub separately. Collaborative access has been provided to `admin@betterbody.co`. Additionally, access to a Google Data Sheet has been granted for tracking purposes. The link to the Google Data Sheet is provided for reference.(https://docs.google.com/spreadsheets/d/1Y0wnD4MBglbtfRnawAtwfNUJSdaK9qYBwLwvbmUxM-8/edit?usp=sharing)
 
 
- 
+ ```
