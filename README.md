@@ -92,4 +92,17 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-This README provides more detailed instructions, explanations, and a structured layout for better readability and understanding. Feel free to further customize it according to your preferences and project specifics!
+## Additional Note -
+
+1. **Data Availability on Shopify**: When attempting to fetch data from Shopify for a specific date, it was found that data was not available because the store's data was last updated up to February 2024.
+
+2. **Order Retrieval Code**: Despite the limitations mentioned above, on querying for the date 12/10/2024, four product details with payment status "Paid" were successfully retrieved. A separate code (`order.py`) has been developed for this purpose. To reference and test this code, one needs to adjust the date in the code accordingly.
+
+3. **Total Revenue Calculation Code**: A separate code (`revenue.py`) has been developed to calculate the total revenue or total sale for each date. On querying for the date 12/10/2024, the total revenue could be obtained as the products' total value was present in the Shopify store.
+
+4. **Output Display**: Both the order details and the total revenue are displayed in the console log. One simply needs to adjust the dates according to the desired query.
+
+5. **Code Repository and Collaboration**: All the relevant code has been shared on GitHub separately. Collaborative access has been provided to `admin@betterbody.co`. Additionally, access to a Google Data Sheet has been granted for tracking purposes. The link to the Google Data Sheet is provided for reference.(https://docs.google.com/spreadsheets/d/1Y0wnD4MBglbtfRnawAtwfNUJSdaK9qYBwLwvbmUxM-8/edit?usp=sharing)
+
+
+ 
