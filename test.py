@@ -7,14 +7,14 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 # Constants for Shopify API, Google Sheets, and Slack
-SHOPIFY_STORE_NAME = 'betterbody-co-test.myshopify.com'
-SHOPIFY_ACCESS_TOKEN = "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"
-SHOPIFY_API_URL = f"https://{SHOPIFY_STORE_NAME}/admin/api/2023-04/reports.json"
-GOOGLE_SHEETS_CREDS_FILE = r'D:\NFT-Project\Shopify_Script\shopify-data-script-771f98e7adc0.json'  
-GOOGLE_SHEETS_SCOPE = ['https://www.googleapis.com/auth/spreadsheets']
-GOOGLE_SHEETS_SPREADSHEET_ID = '1Y0wnD4MBglbtfRnawAtwfNUJSdaK9qYBwLwvbmUxM-8'
-SLACK_TOKEN = 'xoxb-7043338520034-7063186473169-clq9g3OOedCwGjYNJ5MqWZoB'
-SLACK_CHANNEL = '#tech-systems-engineer-maneuver'
+SHOPIFY_STORE_NAME = 'Enter The Credentials'
+SHOPIFY_ACCESS_TOKEN = 'Enter The Credentials'
+SHOPIFY_API_URL = 'Enter The Credentials'
+GOOGLE_SHEETS_CREDS_FILE = 'Enter The Credentials'  
+GOOGLE_SHEETS_SCOPE = 'Enter The Credentials'
+GOOGLE_SHEETS_SPREADSHEET_ID = 'Enter The Credentials'
+SLACK_TOKEN = 'Enter The Credentials'
+SLACK_CHANNEL = 'Enter The Credentials'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
